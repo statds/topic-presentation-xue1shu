@@ -311,10 +311,7 @@ ggplotly(ggplot(movies_df, aes(x = Runtime, fill = Genre)) +
 ## Example 2: Twitter Data
 
 ```{r, echo = FALSE}
-consumer_key <- "uvTWKchcoq3fZWBXIhisojF2R"
-consumer_secret <- "JGJ2IPr0ywipMWSx4zBSBoFYRjRSnjrDIGzsCqBs1VA92pOFPG"
-access_token <- "798334926101876737-7zCBIogEBs2hoO3f7plquYEl717Xvs2"
-access_secret <- "YhEn93E3oXt72MbexLCOCxmqwr7c5Q7XE7nGsTpntkQ4R"
+
 ```
 
 Initial setup: generate `consumer_key`, `consumer_secret`, `access_token`,
