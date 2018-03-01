@@ -59,7 +59,7 @@ types of information from Web pages, such as harvesting e-mail addresses
 ### Web scraping
 
 Web scraping is also same as finding required data from web pages. But in 
-scraping, we know the exact page from which we need to scrap the data. 
+scraping, we know the exact page from which we need to scrape the data. 
 We also know the html element structure of the webpages as they are fixed. Compared
 to web crawling, it is more targeted. 
 
@@ -72,12 +72,12 @@ Web scraping has immense possibilities in application. Examples are:
 - Scraping labeled image data from websites like Google, Pinterest, Flickr, etc. to 
 train image classification models
 - Scraping data from social media sites like Facebook and Twitter for 
-performing sentiment analysis, oponion mining, etc.
+performing sentiment analysis, opinion mining, etc.
 - Scraping user reviews and feedbacks from e-commerce sites like Amazon
 
 
 
-## Ways to scrap data
+## Ways to scrape data
 
 - **Human copy-paste**: slow and inefficient
 - **Text pattern matching**: use regular expression matching 
@@ -122,13 +122,13 @@ For more information: [CRAN Task View - Web Technologies and Services](https://c
 
 ## Example 1: IMDB Movies
 
-Let's scrap the IMDB website for the 100 most popular feature films released in 
+Let's scrape the IMDB website for the 100 most popular feature films released in 
 2017. The website is 
 [here](http://www.imdb.com/search/title?count=100&release_date=2017,2017&title_type=feature).
 
 ```{r}
 library(rvest)
-# specify the url for desired website to be scrapped
+# specify the url for desired website
 url <- "http://www.imdb.com/search/title?count=100&release_date=2017,2017&title_type=feature"
 
 # read in the HTML code from the website
